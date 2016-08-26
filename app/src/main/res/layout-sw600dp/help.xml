@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ly_main">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:src="@drawable/back_icon"/>
+        <ImageView
+            android:id="@+id/img_appname"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:src="@drawable/child_"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:padding="2dp"
+
+            android:src="@drawable/navigation_icon"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_latest"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/ly_border">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/support_icon"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Support"
+                android:layout_marginLeft="25dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_blue"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/ly_border"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/documentation_icon"
+                android:layout_gravity="center_vertical" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Documentation"
+                android:textStyle="bold"
+                android:textColor="@color/text_blue"
+                android:layout_marginLeft="20dp"
+                android:textSize="25sp"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

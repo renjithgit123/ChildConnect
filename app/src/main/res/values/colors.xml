@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="red">#DD2638</color>
+    <color name="yellow">#F1D31B</color>
+    <color name="bus_green">#83AF40</color>
+    <color name="actionbar">#E2E2E2</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FFB23B</color>
+    <color name="view_color">#9A9A9A</color>
+    <color name="text_green">#447E05</color>
+    <color name="background">#55000000</color>
+    <color name="parentview">#DDD8D5</color>
+    <color name="white">#fff</color>
+    <color name="blue">#0099ff</color>
+    <color name="transparent_blue">#F20078B0</color>
+    <color name="view_color_">#0088B6</color>
+    <color name="text_blue">#0079AF</color>
+    <color name="white_transparent">#E6FFFFFF</color>
+    <color name="spinner_blue">#00B7F9</color>
+    <color name="text_color">#727375</color>
+    <color name="dialogbox_background">#BF000000</color>
+</resources>
+
+ <!--
+  transparent
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5%  — 0D
+    0% —  00-->

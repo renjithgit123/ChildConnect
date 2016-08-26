@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ly_main"
+
+    android:orientation="vertical"
+    tools:context=".ChildconnectActivityLogin">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:src="@drawable/back_icon"/>
+        <ImageView
+            android:id="@+id/img_appname"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:src="@drawable/child_"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:padding="2dp"
+
+            android:src="@drawable/navigation_icon"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/background_latest"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_height="45dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/inbox"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inbox"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_compose_mesage"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:background="@drawable/round_button_login">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/compose"
+                    android:layout_gravity="center_vertical" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COMPOSE"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_vertical" />
+                />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical">
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/sent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sent"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/ly_border">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingLeft="5dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/heart_icon"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heart of Adoptions Inc."
+android:textColor="@color/text_blue"
+            android:textStyle="bold"
+            android:layout_gravity="left" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="#505153"
+            android:text="10/12/2016 4:35 PM"/>
+    </LinearLayout>
+</LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Add new photos on Lifebook"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:textSize="12sp"
+                android:textColor="#505153"
+                android:text="@string/forgot_password"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="#505153"
+                    android:text="Reply"/>
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/up_arrow"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/edt_border">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/black"
+                    android:maxLines="4"
+                    android:lines="4"
+                    android:gravity="top|left"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/attach_icon"
+                        android:layout_gravity="center_vertical" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Attach File"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#505153"
+                        android:layout_gravity="center_vertical" />
+                    />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/btn_join_now"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="40dp"
+
+                    android:orientation="horizontal"
+                    android:background="@drawable/round_button_login">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/send_icon"
+                        android:layout_gravity="center_vertical" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="REPLY"
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center_vertical" />
+                    />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stack.user.childconnect">
+    <supports-screens android:requiresSmallestWidthDp="600"/>
+    <supports-screens android:requiresSmallestWidthDp="320"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/childconnect_app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".ChildconnectActivityLogin"></activity>
+        <activity android:name=".RegisterActivity"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name=".ForgotPasswordActivity"></activity>
+        <activity android:name=".ChildListActivity"></activity>
+        <activity android:name=".ChildDetailViewActivity"></activity>
+        <activity android:name=".PasswordResetActivity"></activity>
+        <activity android:name=".ComposeMessage"></activity>
+        <activity android:name=".InfoTabeActivity"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name=".ViewMessageActivity"></activity>
+        <activity android:name=".LifeBookActivity"></activity>
+        <activity android:name=".CreateLifeBookActivity"></activity>
+        <activity android:name=".LifeBookPreview"></activity>
+        <activity android:name=".HelpActivity"></activity>
+        <activity android:name=".AlertSettings"
+            android:theme="@style/AppTheme1"></activity>
+        <activity android:name=".MessageViewListActivity"></activity>
+    </application>
+
+</manifest>

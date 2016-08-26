@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/popup"
+    android:background="@color/dialogbox_background"
+    tools:context=".ChildconnectActivityLogin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical"
+
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/ly_white_border">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Compose Message"
+                    android:paddingTop="10dp"
+                    android:textSize="30sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                  android:layout_centerInParent="true"/>
+                <ImageView
+                    android:id="@+id/img_composemsg_popup_close"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/close_icon"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#757575"
+                    android:textSize="22sp"
+                    android:text="To"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/edt_border">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center_vertical" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#757575"
+                    android:textSize="22sp"
+                    android:text="Subject"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/edt_border">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center_vertical" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#757575"
+                    android:textSize="22sp"
+                    android:text="Message"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/edt_border">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:maxLines="6"
+                        android:lines="6"
+                        android:gravity="top|left"
+                        android:textColor="@color/black"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center_vertical" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/attach_icon"
+                        android:layout_gravity="center_vertical" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Attach File"
+                        android:textColor="#757575"
+                        android:textSize="22sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center_vertical" />
+                    />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/btn_join_now"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/round_button_login">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/send_icon"
+                        android:layout_gravity="center_vertical" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SEND"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center_vertical" />
+                    />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

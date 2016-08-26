@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/popup"
+    android:padding="20dp"
+    android:background="@color/dialogbox_background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:paddingRight="30dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/ly_border"
+        android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/cross_lines"/>
+</RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="Lifebook has been deleted"
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:id="@+id/lystartpopup_button"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_start_trip"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/round_button_login"
+                android:text="OK"
+                android:textColor="@color/white"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

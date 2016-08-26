@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="15dp"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/heart_icon"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+
+                android:layout_marginLeft="40dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Heart of Adoptions Inc."
+                    android:textColor="@color/text_blue"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_gravity="left" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="#525356"
+                    android:text="10/12/2016 4:35 PM EST"/>
+            </LinearLayout>
+<!--<CheckBox
+    android:layout_width="30dp"
+    android:layout_height="25dp"
+    android:layout_marginRight="10dp"
+    android:layout_alignParentRight="true"
+    android:button="@drawable/custom_checkbox"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+ />
+       -->
+            <CheckBox
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:button="@null"
+                android:background="@drawable/custom_checkbox"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="7dp"
+
+            android:textColor="#242528"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:text="Add new photos on Lifebook"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="#525356"
+            android:textSize="12sp"
+            android:text="@string/forgot_p"/>
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="15dp"
+    android:background="#EAE8E6">
+
+</View>
+    </LinearLayout>
+</LinearLayout>

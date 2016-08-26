@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Childconnect</string>
+    <string name="forgot_password">Please enter your email Id registered with us and press "SUBMIT" .if you donot know User Id or have any other questions please enter a help desk ticket at help.cairsolution.com</string>
+    <string name="forgot_p">Please enter your email Id registered with us and press "SUBMIT".if you donot</string>
+</resources>

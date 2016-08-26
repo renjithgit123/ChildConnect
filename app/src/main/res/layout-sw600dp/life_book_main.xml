@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ly_main"
+    android:background="@drawable/background_latest">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:src="@drawable/back_icon"/>
+        <ImageView
+            android:id="@+id/img_appname"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/child_"
+            android:layout_marginTop="5dp"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+
+            android:src="@drawable/navigation_icon"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <LinearLayout
+            android:id="@+id/ly_create_lifebook"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="180dp"
+            android:orientation="horizontal"
+            android:background="@drawable/round_button_login">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/plus"
+                android:layout_gravity="center_vertical" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEW LIFEBOOK"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical" />
+            />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_filter"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/funnel_icon"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    >
+    <ListView
+        android:id="@+id/lv_lifebook_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+
+ >
+    <com.joooonho.SelectableRoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:scaleType="centerCrop"
+        android:src="@drawable/child_four"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:sriv_left_top_corner_radius="7dip"
+        app:sriv_right_top_corner_radius="7dip"
+        app:sriv_left_bottom_corner_radius="7dip"
+        app:sriv_right_bottom_corner_radius="7dip"
+        app:sriv_border_color="#008fea"
+
+        app:sriv_oval="false" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/delete"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/delete"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp"
+            android:src="@drawable/delete"/>
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

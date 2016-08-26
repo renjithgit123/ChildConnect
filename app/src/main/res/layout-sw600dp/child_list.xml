@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ly_main"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:src="@drawable/back_icon"/>
+        <ImageView
+            android:id="@+id/img_appname"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/child_"
+            android:layout_marginTop="5dp"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/navigation_icon"/>
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_latest"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#6D6F72"
+        android:text="2 active connections.Click on child's thumbnail to view detail of a connection"
+       android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+    <ListView
+        android:id="@+id/lv_childlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+       >
+
+    </ListView>
+    <LinearLayout
+        android:id="@+id/ly_think"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Thinking about adopting again?"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

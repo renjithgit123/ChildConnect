@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+  <!--  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/child_"
+            android:layout_marginTop="5dp"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/navigation_icon"/>
+    </RelativeLayout>-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="#F200ADF4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Messages"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#00BFF9">
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lifebook"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#00BFF9">
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#00BFF9">
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#00BFF9">
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert Settings"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#00BFF9">
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password Reset"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#00BFF9">
+    </View>
+    <LinearLayout
+        android:id="@+id/ly_popup_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
