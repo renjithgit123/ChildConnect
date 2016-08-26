@@ -11,6 +11,5 @@ public class ComposeMessage extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.compose_message);
-
     }
 }
