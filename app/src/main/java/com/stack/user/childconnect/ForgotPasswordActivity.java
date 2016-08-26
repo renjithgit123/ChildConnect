@@ -20,6 +20,7 @@ public class ForgotPasswordActivity extends Activity {
         String sourceString=text_forgotPassword + "<font color=#003663><b>help.cairsolutions.com</font>";;
         txtvwForgotPassword.setText(Html.fromHtml(sourceString));
     }
+
     ////initialize views
     private void init(){
         txtvwForgotPassword=(TextView)findViewById(R.id.txtvw_forgotpassword);
